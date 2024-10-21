@@ -23,7 +23,7 @@ on:
 
 jobs:
   call-workflow-passing-data:
-    uses: Reusable-Test/abhi-called-repo/.github/workflows/called-codeql-workflow.yml@main
+    uses: advanced-security-trainings/called-repo/.github/workflows/called-codeql-workflow.yml@main
     with:
       language: 'java'
       runner-type: 'ubuntu-latest'
